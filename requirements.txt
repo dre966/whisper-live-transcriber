@@ -1,0 +1,7 @@
+gradio>=3.50.2
+torch==2.4.1
+whisperx == 3.3.2
+numpy>=1.24.3
+tqdm>=4.65.0 
+openai-whisper == 20231117
+torch-directml==0.1.13.dev221206
