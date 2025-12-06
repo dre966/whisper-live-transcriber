@@ -17,7 +17,7 @@ _A simple GUI made with `gradio` to do live transcription with Whisper._
 
 ---
 ## ℹ️ HOW I GOT HERE
- I'm part of the projection team at my church and one day I thought what if the preacher's input voice was fed to our machine so it transcribe and directly copy the scripture he mentions so we skip can the "long" typing process. I did some research and found [Eric Lopez's]((https://github.com/Pikurrot) whisper GUI. It was so simple to understand and made modifications (great code am I right 😅). That's why `main.py` has a bible verse regex(Ignore It 😊)
+ I'm part of the projection team at my church and one day I thought what if the preacher's input voice was fed to our machine so it transcribe and directly copy the scripture he mentions so we skip can the "long" typing process. I did some research and found [Eric Lopez's](https://github.com/Pikurrot) whisper GUI. It was so simple to understand and made modifications (great code am I right 😅). That's why `main.py` has a bible verse regex(Ignore It 😊)
  
 ---
 ### Modifications 
