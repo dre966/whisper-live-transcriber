@@ -13,15 +13,14 @@ _A simple GUI made with `gradio` to do live transcription with Whisper._
 
 ---
 ## ⚠️This repo is under construction
- The amd device support might be buggy and ui still prints debug messages. It's still under devlopment. If you some things don't work, dont worry. I'm working on it. 👍 (But most things work tho)
+ The amd device support might be buggy and ui still prints debug messages. It's still under devlopment. If some things don't work, dont worry. I'm working on it. 👍 (But most things work tho)
 
 ---
 ## ℹ️ HOW I GOT HERE
- I'm part of the projection team at my church and one day I thought what if the preacher's input voice fed to our machine so it transcribe and directly copy the scripture he mentions so we can the "long" typing process. I did some research and found [Eric Lopez's]((https://github.com/Pikurrot) whisper GUI. It was so simple to understand and made modifications (great code am I right 😅). That's why `main.py` has a bible verse regex(Ignore It 😊)
+ I'm part of the projection team at my church and one day I thought what if the preacher's input voice was fed to our machine so it transcribe and directly copy the scripture he mentions so we skip can the "long" typing process. I did some research and found [Eric Lopez's]((https://github.com/Pikurrot) whisper GUI. It was so simple to understand and made modifications (great code am I right 😅). That's why `main.py` has a bible verse regex(Ignore It 😊)
  
 ---
 ### Modifications 
-^8a40c7
 - Changed audio transcribing method from ***upload*** to ***live***
 - Removed Alignment Features to increase speed
 - Set `requirements.txt` to download stable version of whisperx and torch to allow directml switching for AMD devices
